@@ -1,0 +1,83 @@
+:root{
+    /* COLORS */
+    --primary-red: hsl(0, 100%, 74%);
+    --primary-green: hsl(154, 59%, 51%);
+    --accent-blue: hsl(248, 32%, 49%);
+    --neutral-dark-blue: hsl(249, 10%, 26%);
+    --neutral-grayish-blue: hsl(246, 25%, 77%);
+    --primary-white: #fff;
+
+    /* FONT SIZE */
+    --fs-16: 16px
+
+    /* FONT WEIGHT */
+    --fw-400: 400px
+    --fw-500: 500px
+    --fw-600: 600px
+    --fw-700: 700px
+
+    /* FONT FAMILY */
+    --poppins: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+    /* HTML TAGS */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--poppins);
+    font-size: 16px;
+    background-color: var(--primary-red);
+    background-image: url(images/bg-intro-mobile.png);
+    background-position: top;
+}
+
+div > h1, p {
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 2rem;
+}
+
+p{
+    margin-top: 1rem;
+    color: #fff;
+    line-height: 1.6rem;
+}
+
+/* LAYOUT */
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+/* BLOCK ELEMENT CLASSES */
+
+.container{
+    margin: 4.6rem 2rem;
+}
+
+.block__free{
+    background:var(--accent-blue);
+    border-radius: 10px;
+    margin-top: 4rem;
+}
+
+.block__free > p{
+    font-size: 1.2rem;
+    padding: 16px;
+}
+
+
+
